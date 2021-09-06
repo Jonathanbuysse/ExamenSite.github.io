@@ -1,0 +1,75 @@
+h1 {
+	color: orangered;
+	font-size: 29px;
+	border-bottom: 1px solid #CC6633;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight: normal;
+}
+h2 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333333;
+	font-weight: normal;
+}
+.important {
+	color: #CC0000;
+	font-weight: bold;
+}
+body {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 90%;
+	color: #333333;
+	background-color: #CCCCCC;
+}
+#container {
+	
+	width: 854px;
+	padding-left: auto;
+	padding-right: auto;
+	margin-left: auto;
+	margin-right: auto;
+	Margin-top: 0px;
+}
+#navigation {
+	float: left;
+	width: 220px;
+}
+#container #navigation ul li {
+	list-style-type: none;
+	padding-left: 10px;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 90%;
+	border-bottom: 1px solid black;
+}
+#container#navigation ul li a {
+	text-decoration: none;
+}
+#container #navigation ul li a:hover {
+	color: #990000;
+}
+#container #footer a {
+	color: #CCCCCC;
+}
+#maincontent {
+	float: left;
+	width: 624px;
+	padding-left: 10px;
+}
+#footer {
+	background-color: #333333;
+	color: #FFFFFF;
+	clear: both;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 70%;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+a{text-decoration:none;}
+.index{
+	background-color: white;
+}
